@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    gap:10px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+h2{
+color:greenyellow;
+}
+.userInput{
+    padding:10px;
+    width:200px;
+    text-align: center;
+}
+/* addnote button  */
+.addNote{
+    background-color: black;
+    padding:8px;
+    color:white;
+}
+/* noteslist  */
+.listItem{
+    background-color:white;
+    width:100%;
+    padding:10px;
+    list-style:none;
+}
+.listItem p{
+    padding:5px;
+}

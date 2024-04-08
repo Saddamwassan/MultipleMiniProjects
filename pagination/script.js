@@ -91,7 +91,7 @@ document.querySelectorAll('.pagebtn').forEach((btn)=>{
     const currentPageIndex = Number(btn.getAttribute('page-index'));
     if(currentPageIndex){
         btn.addEventListener('click',()=>{
-            // getCurrentPage(currentPageIndex);
+            getCurrentPage(currentPageIndex);
         })
     }
 })
