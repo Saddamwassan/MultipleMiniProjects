@@ -4,3 +4,82 @@
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
+body{
+    min-height:90vh;
+    background-color: rgb(227, 224, 221);
+}
+h2{
+    text-align: center;
+    background-image: linear-gradient(black,silver);
+    padding: 20px;
+    position:fixed;
+    top:0;
+    width:100%;
+    color:white;
+}
+.recipeList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    padding:10px;
+    margin-left:30px;
+}
+.recipeWrapper{
+    background-color:rgb(230, 204, 129);
+    width:400px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 5px 5px 5px;
+    border-radius:7px;
+    text-align: left;
+}
+.recipeimage{
+width:400px;
+background-size:cover;
+border-radius:7px;
+}
+p{
+    font-weight:bold;
+}
+.recipeDetail{
+    padding:6px;
+    background-color: black;
+    color:white;
+    width:100px;
+    border-radius:7px;
+}
+/* onclick data shown  */
+.recipeData{
+    padding:30px;
+}
+/* loader  */
+.loader{
+    display:none;
+}
+.hide{
+    display:none;
+}
+.loader.show{
+    display: block;
+    border:4px solid black;
+    border-top: 4px solid gold;
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:48%;
+    animation:animateloader 1s linear infinite;
+}
+@keyframes animateloader{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
