@@ -17,8 +17,8 @@ function addNote(){
     }
     // edit functionality 
     else if(addNoteBtn.innerText == "Edit Note"){
-        editAnyNote(currentEditedValue.target.parentElement.previousElementSibling.innerHTML);
-        currentEditedValue.target.parentElement.previousElementSibling.innerHTML = note;
+        editAnyNote(currentEditedValue.target.parentElement.previousElementSibling.innerText);
+        currentEditedValue.target.parentElement.previousElementSibling.innerText = note;
         addNoteBtn.innerText = 'Add Note';
         userInput.value = '';
     }
@@ -100,7 +100,7 @@ function editAndDeleteWork(event){
     }
     // for edit 
     if(event.target.innerHTML === 'edit'){
-        let editedValue = event.target.parentElement.previousElementSibling.innerHTML;
+        let editedValue = event.target.parentElement.previousElementSibling.innerText;
         userInput.value = editedValue ;
         addNoteBtn.innerText = 'Edit Note';
         userInput.focus();

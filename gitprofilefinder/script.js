@@ -24,16 +24,17 @@ contentDiv.classList.add('hide');
 function hideLoader(){
     loader.classList.remove('show');
     contentDiv.classList.remove('hide');
-    }
-
+}
 function showUserDetail(user){
+    // console.log(user);
+    console.log(user);
     // destructing object 
     const {login,avatar_url,public_repos,following_url,created_at,bio} = user;
     contentDiv.innerHTML = `
     <div class='userDiv'>
     <div class="left">
     <p>${created_at}</p>
-    <p>${login}</p>
+    <p>Username: ${login}</p>
     <p> Public Repos : ${bio}</p>
     <p> Public Repos : ${public_repos}</p>
     <a href="${following_url}">Follow me</a>
