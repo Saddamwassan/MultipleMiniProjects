@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-shadow:border-box;
+}
+.main{
+    height:100Vh;
+    display:flex;
+    flex:2;
+}
+/* left  */
+.left{
+    background-color: lightblue;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    color:red;
+}
+.hexvalue,.rgbvalue{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+#hexbtn{
+    padding:10px;
+    width:100px;
+    background-color:blue;
+    color:white;
+    border-radius:7px;
+    border:none;
+}
+/* right  */
+.right{
+    background-color:lightcoral;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right div{
+    display:flex;
+    align-items: center;
+}
+input,label{
+    padding:10px; 
+    color:white;
+    font-size:22px;
+}
+/* rgb btn  */
+.rgbbtn{
+    padding:10px;
+    width:100px;
+    background-color:rgb(218, 74, 211);
+    color:white;
+    border-radius:7px;
+    border:none;
+    margin-bottom:5px;
+}
+#copyColorHex,#copyColorRgb{
+    padding:10px;
+    width:100px;
+    background-color:rgb(109, 172, 87);
+    color:white;
+    border-radius:7px;
+    border:none;
+    box-shadow:0 0 5px white;
+}

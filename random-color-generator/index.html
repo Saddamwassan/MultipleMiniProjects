@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h2 id="hexText">Click Below</h2>
+            <p class="hexvalue">#000fff</p>
+            <button id="hexbtn"> hex btn </button>
+            <button id="copyColorHex"> copy-to-clipboard </button>
+
+        </div>
+        <div class="right">
+            <p class="rgbvalue">rgb(44,57,11)</p>
+            <div class="red">
+                <label for="red">Red</label>
+                <input type="range" min="0" max="255" class="redColor"> 
+            </div>
+            <div class="blue">
+                <label for="blue">blue</label>
+                <input type="range" min="0" max="255" class="blueColor"> 
+            </div>
+            <div class="green">
+                <label for="green">green</label>
+                <input type="range" min="0" max="255" class="greenColor"> 
+            </div>
+            <button class="rgbbtn">rgb</button>
+            <button id="copyColorRgb"> copy-to-clipboard </button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

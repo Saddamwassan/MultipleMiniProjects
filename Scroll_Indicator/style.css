@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top{
+    background-color: rgb(3, 43, 24);
+    padding-bottom: 5px;
+    position: fixed;
+    width:100%;
+}
+h2{
+    color:white;
+    padding:20px;
+}
+.progressContainer{
+    background-color:orangered;
+    height: 10px;
+    margin-bottom:10px;
+}
+.progressBar{
+    background-color:white;
+    height:10px;
+    width:0%;
+}
+.content{
+    padding:20px;
+}
+.postWrapper{
+    padding:12px;
+    border:1px solid orangered;
+    margin-bottom: 12px;
+    background: linear-gradient(45deg,black,rgb(12, 136, 78));
+    color:white;
+    border-radius:5px;
+}
+p{
+    margin:10px 0 10px 0;
+}
+.postTags{
+    background-color:rgb(255, 68, 0);
+    width:200px;
+    border-radius:25px;
+    padding:6px;
+    text-align:center;
+}

@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 10px;
+    border:1px solid black;
+    width:328px;
+    padding:12px;
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 0.968);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.inputWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+}
+#billAmount{ 
+    outline: none;
+    padding:2px;
+}
+.inputWrapper div{
+    display: flex;
+    gap:30px;
+}
+.generateBill{
+    width:100px;
+    padding:3px;
+    background-color:black;
+    color:white;
+    border-radius:3px;
+}
+.output{
+    border:1px solid rgb(0, 106, 255);
+    border-radius:3px;
+    font-weight:bold
+}
+.tippayed,.amountpayed{
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    background-color: white;
+}

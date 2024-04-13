@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image:linear-gradient(270deg,black,red);
+
+}
+header{
+    background-image:linear-gradient(270deg,white,green);
+    padding:40px 0 0 0;
+    box-shadow: 0 0 10px green;
+    border:1px solid green;
+}
+h3{
+    padding:10px;
+    font-size:32px;
+}
+.nav{
+    background-color: black;
+    color:white;
+    display: flex;
+    gap:10px;
+    padding:20px
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+}
+.contentBox{
+    margin-bottom:10px;
+}
+.content{
+    color:white;
+    padding:20px;
+}
+.stickynav{
+    position:fixed;
+    top:0;
+    width:100%;
+}

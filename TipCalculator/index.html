@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Tip Calculator</h2>
+        <div class="inputWrapper">
+            <label for="">Bill Amount</label>
+            <input type="number" id="billAmount">
+        </div>
+        <div class="inputWrapper">
+            <label for="">Discount %</label>
+            <div>
+                <input type="range" min="0" max="100" id="Discount" >
+                <label for="" id="discPercent">0</label>
+            </div>
+
+        </div>
+        <div class="inputWrapper">
+            <label for="">Tips %</label>
+            <div>
+                <input type="range" min="0" max="100" id="Tips">
+                <label for="" id="tipPercent">0</label>
+            </div>
+
+        </div>
+        <div class="inputWrapper">
+            <label for="">No: of customers</label>
+            <div>
+                <input type="range" min="0" max="100" id="noOfCustomers">
+                <label for="" id="customerNo">0</label>
+            </div>
+
+        </div>
+        <div class="output">
+            <div class="tippayed">
+                <label for="">Tip paid </label>
+                <label for="" id="totalTipPayed">0</label>
+            </div>
+            <hr>
+            <div class="amountpayed">
+                <label for=""> Total Amount Topay </label>
+                <label for="" id="totalAmountToPay">0</label>
+            </div>
+        </div>
+        <button class="generateBill">Generate Bill</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

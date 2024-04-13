@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#box{
+    margin-top:20px;
+    height:100vh;
+}
+h2{
+    color:darkblue;
+    background-color: white;
+    text-align: center;
+    font-size:33px;
+    margin-bottom:5px;
+}
+#accordian{
+    background-color: darkkhaki;
+    align-items: center;
+}
+.item{
+    padding:40px;
+    border:1px solid white;
+}
+.item p{
+    font-size:19px;
+}
+.title{
+    display: flex;
+    font-size:22px;
+    justify-content: space-between;
+}
+/* functionality  */
+.content{
+    display:none;
+}
+.content p{
+    margin-top:10px;
+    color:darkblue;
+}
+.title.active + .content{
+    display: block;
+}
+.title.active i{
+    transform: rotate(180deg);
+}
