@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    height:100vh;
+    text-align:center;
+    padding:10px;
+}
+.datablock{
+    padding:10px;
+    background-color:rgb(140, 140, 249);
+    margin-bottom:5px;
+    border:1px solid gold;
+}
